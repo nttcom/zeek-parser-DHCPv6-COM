@@ -59,7 +59,7 @@ This plug-in generates a `dhcpv6.log` by the command below:
 ```
 
 ## Log type and description
-This plug-in monitors all functions of cifs and outputs them as `dhcpv6.log`.
+This plug-in monitors all functions of dhcpv6 and outputs them as `dhcpv6.log`.
 
 | Field | Type | Description |
 | --- | --- | --- |
