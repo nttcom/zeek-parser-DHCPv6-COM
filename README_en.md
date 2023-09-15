@@ -1,8 +1,8 @@
-# Zeek-Parser-DHCPV6
+# Zeek-Parser-DHCPv6-COM
 
 ## Overview
 
-Zeek-Parser-DHCPV6 is a Zeek plug-in that can analyze communication using DHCPV6.
+Zeek-Parser-DHCPv6-COM is a Zeek plug-in that can analyze communication using DHCPv6(Dynamic Host Configuration Protocol for IPv6).
 
 ## Usage
 
