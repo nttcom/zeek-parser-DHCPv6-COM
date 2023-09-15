@@ -1,10 +1,10 @@
-# Zeek-Parser-DHCPV6
+# Zeek-Parser-DHCPv6-COM
 
 English is [here](https://github.com/nttcom/zeek-parser-DHCPV6/blob/main/README_en.md)
 
 ## 概要
 
-Zeek-Parser-DHCPV6とはDHCPV6を解析できるZeekプラグインです。
+Zeek-Parser-DHCPv6-COMとはDHCPv6（Dynamic Host Configuration Protocol for IPv6）を解析できるZeekプラグインです。
 
 ## 使い方
 
@@ -66,7 +66,7 @@ spicyc v1.5.0 (d0bc6053)
 | --- | --- | --- |
 | ts | time | 通信した時のタイムスタンプ |
 | SrcIP | addr | 送信元IPアドレス  |
-| SrcMAC | string | 送信元macアドレス |
+| SrcMAC | string | 送信元MACアドレス |
 | Hostname | string | ホストの名前 |
 | FingerPrint | vector[count] | 特定のコンピューター、サーバー、仮想マシン、システム、アプリケーション、ツールまたは環境の識別子 |
 | EnterpriseNumber | count | 企業または組織の識別番号の出現回数 |
@@ -88,7 +88,7 @@ spicyc v1.5.0 (d0bc6053)
 #close	2023-09-13-05-06-45
 ```
 
-## 関連ソフトウエア
+## 関連ソフトウェア
 
 本プラグインは[OsecT](https://github.com/nttcom/OsecT)で利用されています。
 
