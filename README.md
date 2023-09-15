@@ -29,12 +29,12 @@ spicyc v1.5.0 (d0bc6053)
 
 本リポジトリをローカル環境に `git clone` します。
 ```
-~$ git clone https://github.com/nttcom/zeek-parser-DHCPV6.git
+~$ git clone https://github.com/nttcom/zeek-parser-DHCPV6-COM.git
 ```
 
 ソースコードをコンパイルして、オブジェクトファイルを以下のパスにコピーします。
 ```
-~$ cd ~/zeek-parser-DHCPV6/analyzer
+~$ cd ~/zeek-parser-DHCPV6-COM/analyzer
 ~$ spicyz -o dhcpv6.hlto dhcpv6.spicy zeek_dhcpv6.spicy dhcpv6.evt 
 # dhcpv6.hltoが生成されます
 ~$ cp dhcpv6.hlto /usr/local/zeek/lib/zeek-spicy/modules/
@@ -42,7 +42,7 @@ spicyc v1.5.0 (d0bc6053)
 
 同様にZeekファイルを以下のパスにコピーします。
 ```
-~$ cd ~/zeek-parser-DHCPV6/scripts/
+~$ cd ~/zeek-parser-DHCPV6-COM/scripts/
 ~$ cp main.zeek /usr/local/zeek/share/zeek/site/
 ```
 
@@ -55,7 +55,7 @@ spicyc v1.5.0 (d0bc6053)
 
 本プラグインを使うことで `dhcpv6.log` が生成されます。
 ```
-~$ cd ~/zeek-parser-DHCPV6/testing/Traces
+~$ cd ~/zeek-parser-DHCPV6-COM/testing/Traces
 ~$ zeek -Cr test.pcap /usr/local/zeek/share/zeek/site/main.zeek
 ```
 
