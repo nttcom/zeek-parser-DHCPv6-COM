@@ -4,7 +4,7 @@ English is [here](https://github.com/nttcom/zeek-parser-DHCPV6/blob/main/README_
 
 ## 概要
 
-Zeek-Parser-DHCPv6-COMとはDHCPv6（Dynamic Host Configuration Protocol for IPv6）を解析できるZeekプラグインです。
+Zeek-Parser-DHCPv6-COMとはDHCPv6(Dynamic Host Configuration Protocol for IPv6)を解析できるZeekプラグインです。
 
 ## 使い方
 
