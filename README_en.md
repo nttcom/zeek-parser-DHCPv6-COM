@@ -28,12 +28,12 @@ spicyc v1.5.0 (d0bc6053)
 
 Use `git clone` to get a copy of this repository to your local environment.
 ```
-~$ git clone https://github.com/nttcom/zeek-parser-DHCPV6.git
+~$ git clone https://github.com/nttcom/zeek-parser-DHCPV6-COM.git
 ```
 
 Compile source code and copy the object files to the following path.
 ```
-~$ cd ~/zeek-parser-DHCPV6/analyzer
+~$ cd ~/zeek-parser-DHCPV6-COM/analyzer
 ~$ spicyz -o dhcpv6.hlto dhcpv6.spicy zeek_dhcpv6.spicy dhcpv6.evt 
 # dhcpv6.hlto will be generated
 ~$ cp dhcpv6.hlto /usr/local/zeek/lib/zeek-spicy/modules/
@@ -41,7 +41,7 @@ Compile source code and copy the object files to the following path.
 
 Then, copy the zeek file to the following paths.
 ```
-~$ cd ~/zeek-parser-DHCPV6/scripts/
+~$ cd ~/zeek-parser-DHCPV6-COM/scripts/
 ~$ cp main.zeek /usr/local/zeek/share/zeek/site/
 ```
 
@@ -54,7 +54,7 @@ Finally, import the Zeek plugin.
 
 This plug-in generates a `dhcpv6.log` by the command below:
 ```
-~$ cd ~/zeek-parser-DHCPV6/testing/Traces
+~$ cd ~/zeek-parser-DHCPV6-COM/testing/Traces
 ~$ zeek -Cr test.pcap /usr/local/zeek/share/zeek/site/main.zeek
 ```
 
