@@ -43,7 +43,7 @@ spicyc v1.5.0 (d0bc6053)
 同様にZeekファイルを以下のパスにコピーします。
 ```
 ~$ cd ~/zeek-parser-DHCPV6-COM/scripts/
-~$ cp main.zeek /usr/local/zeek/share/zeek/site/
+~$ cp main.zeek /usr/local/zeek/share/zeek/site/DHCPV6.zeek
 ```
 
 最後にZeekプラグインをインポートします。
@@ -56,7 +56,7 @@ spicyc v1.5.0 (d0bc6053)
 本プラグインを使うことで `dhcpv6.log` が生成されます。
 ```
 ~$ cd ~/zeek-parser-DHCPV6-COM/testing/Traces
-~$ zeek -Cr test.pcap /usr/local/zeek/share/zeek/site/main.zeek
+~$ zeek -Cr test.pcap /usr/local/zeek/share/zeek/site/DHCPV6.zeek
 ```
 
 ## ログのタイプと説明
