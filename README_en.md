@@ -42,7 +42,7 @@ Compile source code and copy the object files to the following path.
 Then, copy the zeek file to the following paths.
 ```
 ~$ cd ~/zeek-parser-DHCPV6-COM/scripts/
-~$ cp main.zeek /usr/local/zeek/share/zeek/site/
+~$ cp main.zeek /usr/local/zeek/share/zeek/site/DHCPV6.zeek
 ```
 
 Finally, import the Zeek plugin.
@@ -55,7 +55,7 @@ Finally, import the Zeek plugin.
 This plug-in generates a `dhcpv6.log` by the command below:
 ```
 ~$ cd ~/zeek-parser-DHCPV6-COM/testing/Traces
-~$ zeek -Cr test.pcap /usr/local/zeek/share/zeek/site/main.zeek
+~$ zeek -Cr test.pcap /usr/local/zeek/share/zeek/site/DHCPV6.zeek
 ```
 
 ## Log type and description
