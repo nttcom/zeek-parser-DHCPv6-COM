@@ -8,7 +8,7 @@ Zeek-Parser-DHCPv6-COM is a Zeek plug-in that can analyze communication using DH
 
 ### Installation with Package Manager
 
-This script is provided as a package for [Zeek Package Manger](https://docs.zeek.org/projects/package-manager/en/stable/index.html).
+This plug-in is provided as a package for [Zeek Package Manger](https://docs.zeek.org/projects/package-manager/en/stable/index.html).
 
 It can be installed by executing the commands below.
 
